@@ -2,7 +2,7 @@ macro_launcher_pad: macro_launcher_pad{
 compatible = "zmk,behavior-macro";
 label = "macro_launcher_pad";
 #binding-cells = <0>;
-bindings = <&kp LEFT_ALT>, <&kp LEFT_META>, <&kp L>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_META>, <&kp L>;
 };
 macro_quote_latex: macro_quote_latex{
 compatible = "zmk,behavior-macro";
